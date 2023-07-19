@@ -1,1 +1,353 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+</head>
+
+<body>
+    <!-- Header Start -->
+    <div class="header">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><a href="index.html">F<span>OO</span>D</a></div>
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#dishes">Dishes</a></li>
+                    <li><a href="#menu">Items</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#order">Order</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                </ul>
+            </div>
+            <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Type Something to search..." required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+        </nav>
+    </div>
+    <!-- Header End -->
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome To <span>Tech</span> Restaurant</h3>
+            <h2>Eat Fresh & Healthy F<span>OO</span>D</h2>
+            <p>Come with a Hungry stomach Go with a Happy Face!</p>
+            <button id="btn">Order Now</button>
+        </div>
+        <div class="img">
+            <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_192106.png?updatedAt=1689602073255" alt="">
+        </div>
+    </section>
+    <!-- Home Section End -->
+    <!-- Top Card Start -->
+    <section class="top-cards">
+        <div class="top-cards-content">
+            <div class="row">
+                <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_200217.png?updatedAt=1689604544141" alt="">
+                <div class="layer">
+                    <h3>Chiken Pakoda</h3>
+                    <p>Pure quality chiken with Pure Sause.</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_201336.png?updatedAt=1689651135293" alt="">
+                <div class="layer">
+                    <h3>Chiken Piece</h3>
+                    <p>Fresh Fried made like home chiken Fry piece.</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_202846.png?updatedAt=1689605956278" alt="">
+                <div class="layer">
+                    <h3>Fast Food</h3>
+                    <p>Noodles with high quantity.</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_203104.png?updatedAt=1689606086823" alt="">
+                <div class="layer">
+                    <h3>Pizza</h3>
+                    <p>With extra Cheese and Sause.</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Top Card End -->
+    <!-- Dishes Section Start -->
+    <section class="dishes" id="dishes">
+        <div class="main-text">
+            <h3><span>D</span>ishes</h3>
+        </div>
+        <div class="card-content">
+            <div class="row">
+                <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_214259.png?updatedAt=1689610963674" alt="">
+                <div class="card-body">
+                    <h3>Chicken Biryani</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <p>Tasty and cripsy chiken.</p>
+                    <div class="price">Price <strong>320 Rs</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_214419.png?updatedAt=1689612200309" alt="">
+                <div class="card-body">
+                    <h3>Mughalai Chiken Biryani</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <p>Spicy Mughalai Chiken Biryani with extra mashala. </p>
+                    <div class="price">Price <strong>390 Rs</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_214531.png?updatedAt=1689610554501" alt="">
+                <div class="card-body">
+                    <h3>Grilled Chicken</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <p>Two Grilled Chiken Pieces with Sufficient rice.</p>
+                    <div class="price">Price <strong>280 Rs</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_221744.png?updatedAt=1689612642909" alt="">
+                <div class="card-body">
+                    <h3>Chiken wings mandi</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <p>Two flavours of rice and Eight fry Pieces.</p>
+                    <div class="price">Price <strong>360 Rs</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_222220.png?updatedAt=1689612768729" alt="">
+                <div class="card-body">
+                    <h3>Mutton mandi</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <p>Served with high quality food.</p>
+                    <div class="price">Price <strong>560 Rs</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_222341.png?updatedAt=1689612838782" alt="">
+                <div class="card-body">
+                    <h3>Fish Mandi</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <p>Fresh Sea food with high Protien.</p>
+                    <div class="price">Price <strong>450 Rs</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Dishes Section End -->
+    <!-- Section Menu Start -->
+    <h3 id="menu-text"><span>I</span>tems </h3>
+    <section class="menu" id="menu">
+        <div class="menu-content">
+            <div class="img-content">
+                <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_222440.png?updatedAt=1689612938491" alt="">
+                <h3>Samosa</h3>
+            </div>
+            <div class="img-content">
+                <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_222622.png?updatedAt=1689613057668" alt="">
+                <h3>Chicken Lollipop</h3>
+            </div>
+            <div class="img-content">
+                <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_222831.png?updatedAt=1689613134919" alt="">
+                <h3>Chiken Puff</h3>
+            </div>
+        </div>
+        <div class="menu-img">
+            <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_223001.png?updatedAt=1689613251863" alt="">
+        </div>
+        <div class="menu-content">
+            <div class="img-content">
+                <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_223133.png?updatedAt=1689613310942" alt="">
+                <h3>KFC Chiken</h3>
+            </div>
+            <div class="img-content">
+                <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_223236.png?updatedAt=1689613373197" alt="">
+                <h3>Burger</h3>
+            </div>
+            <div class="img-content">
+                <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_223340.png?updatedAt=1689613443156" alt="">
+                <h3>French Fries</h3>
+            </div>
+        </div>
+    </section>
+    <!-- Section Menu End -->
+    <!-- About Section Start -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_163647.png?updatedAt=1689592161397" alt="">
+        </div>
+        <div class="about-text">
+            <h3>What We Make Spicy?</h3>
+            <p>We Use Variety of Flavours in Our Recipes for better attraction.Use Unique Styles in Our cooking Methods.<br> We have Talented Chefs from across Tech World.Our spicy Thoughts gives more spicy to Hungry stomach. </p>
+            <a href="#" id="about-btn">Read More...</a>
+        </div>
+    </section>
+    <!-- About Section End -->
+    <!-- Order Section Start -->
+    <section class="order" id="order">
+        <div class="order-text">
+            <h2>Order your Favourite <span>Dish</span></h2>
+            <p>Check our Website or App Where you can Find lot of veg and Non-Veg Items at low Cost.
+                Also Use Cupons for extra discount. For Techies there's additional Discount of 10% on Weekends.
+                <br> Home Delivery available till midnight 2 am. and cash on delivey also available,24/7 customer support for any Queries.
+            </p>
+
+            <div class="list">
+
+                <li><a href="#">987654321</a></li>
+                <li><a href="#">example@gmail.com</a></li>
+                <li><a href="#">Hyderabadi Tech Restarent</a></li>
+                <div class="service">
+                    <a href="#">Free Delivery</a>
+                    <a href="#">Esay Payment</a>
+                    <a href="#">24 Hours Services</a>
+                </div>
+            </div>
+        </div>
+        <div class="order-form">
+            <form action="#">
+                <input type="text" placeholder="Name" required>
+                <input type="number" placeholder="Phone Number" required>
+                <input type="text" placeholder="Your Order" required>
+                <input type="text" placeholder="How Much" required>
+                <textarea name="" id="" cols="35" rows="10" placeholder="Address" required></textarea>
+                <input type="submit" value="Order Now" class="submit" required>
+            </form>
+        </div>
+    </section>
+    <!-- Order Section End -->
+    <!-- Resviews Start -->
+    <div class="reviews" id="reviews">
+        <div class="main-text">
+            <h3>Customers <span>Review</span></h3>
+        </div>
+        <div class="review-content">
+            <div class="box">
+                <div class="img">
+                    <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_223513.png?updatedAt=1689613531759" alt="">
+                </div>
+                <h3>Rahul attuluri</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                </div>
+                <p>Food is very Delicius and Items are too good.Serving is good.Atmosphere pleasent.</p>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="https://pbs.twimg.com/profile_images/1648329734273777664/TJbb4gV-_400x400.jpg" alt="">
+                </div>
+                <h3>Girish akash</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                </div>
+                <p>Great time with good food keeps healthy.Mandi items are Awsome.</p>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_223619.png?updatedAt=1689613605690" alt="">
+                </div>
+                <h3>Developer Brahmi</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                </div>
+                <p>Everything tempting But my pant not holding my Tummy. I Tried to escape from bill such amount of food I eat.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="logo">
+                <h3>F<span>OO</span>D</h3>
+            </div>
+            <p></p>
+            <p>If you like our Food and Maintaince, Your Hungry stomach always finds a Way to our Restaurant <br>Please Visit Again.</p>
+            <div class="socail-links">
+                <a href="https://www.linkedin.com/in/ram-degala-61a1ba215/" target="blank"><img align="center" src="https://camo.githubusercontent.com/162001cc0747178f47ced6e40de0cd16e375beb9b5fbca4ea3d520ecca78cd85/68747470733a2f2f696d672e69636f6e73382e636f6d2f666c75656e742f34382f3030303030302f6c696e6b6564696e2e706e67" alt="" height="50" width="50" /></a>
+                <a href="https://www.instagram.com/ram__964/" target="blank"><img align="center" src="https://camo.githubusercontent.com/15de05815ac1eacce5ad522291d8fc1e7bc86b2aeb4e90b063a023044efe2a91/68747470733a2f2f696d672e69636f6e73382e636f6d2f666c75656e742f34382f3030303030302f696e7374616772616d2d6e65772e706e67" alt="" height="50" width="50" /></a>
+                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ramdegala9@gmail.com" target="blank"><img align="center" src="https://img.icons8.com/?size=1x&id=P7UIlhbpWzZm&format=png" height="50" width="50" /></a>
+                <a href="https://www.youtube.com/" target="blank"><img align="center" src="https://ik.imagekit.io/uko16m2rv/Screenshot_2023-07-17_232535.png?updatedAt=1689616556178" alt="" height="50" width="50" /></a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom-content">
+
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <a href="#" class="arrow"><i><img src="./images/up-arrow.png" alt="" width="50px"></i></a>
+</body>
+
+</html>
